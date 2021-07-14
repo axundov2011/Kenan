@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --green:#2dcb71;
+    --open: 'Open Sans', sans-serif;
+}
+
+.container{
+    max-width: 1180px;
+    margin: auto;
+}
+
+.green-hr{
+    background-color: var(--green);
+    height: 10px;
+}
+
+header{
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header p{
+font: 500 24px var(--open);
+width: 469px;
+line-height: 36px;
+color: #ffffff;
+}
+
+header img{
+    margin-top: 165px;
+}
+
+header .container{
+    padding-left: 115px;
+}
+
+header a{
+    position: relative;
+        display: inline-block;
+        width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #000;
+    opacity: 0.5;
+    
+    }
+    
+    header a i{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: #ffffff;
+        font-size: 24px;
+        transform: translate(-50%, -50%);
+    }
+    
+    header a:hover{
+        background-color: var(--green);
+        opacity: 1;
+    }
+    
+    header .social{
+        padding-bottom: 200px;
+    }
+
+
+    #second{
+        background-color: #ffffff;
+        padding-top: 54px;
+    }
+
+   
+
+    #second a{
+        position: relative;
+        display: inline-block;
+        top: 50%;
+        left: 50%;
+        width: 98px;
+        height: 98px;
+        border-radius: 49px;
+        background-color: #2ecc71;
+        opacity: 1;
+    }
+
+    #second a i{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: #ffffff;
+        font-size: 48px;
+        transform: translate(-50%, -50%);
+    }
+
+    
